@@ -1,0 +1,3 @@
+default world runtime {
+    export gcd4: func(a: s64, b: s64, c: s64, d: s64) -> s64
+}

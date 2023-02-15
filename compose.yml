@@ -1,0 +1,3 @@
+dependencies:
+  gcd2-outer:
+    path: rust-side-component.wasm

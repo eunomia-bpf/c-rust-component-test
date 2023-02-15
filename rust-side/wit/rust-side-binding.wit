@@ -1,0 +1,3 @@
+default world rust-side-binding {
+    export gcd2: func(a: s64, b: s64) -> s64
+}

@@ -1,0 +1,12 @@
+[package]
+name = "runtime"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wit-bindgen = { git = "https://github.com/bytecodealliance/wit-bindgen", rev = "0fb4018" }
+anyhow = "1.0.69"
+wasmtime = { git = "https://github.com/bytecodealliance/wasmtime", rev = "255fd6b", features = ["component-model"] }
+rand = "0.8.5"

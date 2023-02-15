@@ -1,0 +1,6 @@
+default world c-side-binding {
+    import gcd2-outer: interface {
+        gcd2: func(a: s64, b: s64) -> s64
+    }
+    export gcd4: func(a: s64, b: s64, c: s64, d: s64) -> s64
+}

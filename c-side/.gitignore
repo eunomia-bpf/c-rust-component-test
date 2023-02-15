@@ -1,0 +1,4 @@
+c_side_binding.c
+c_side_binding_component_type.o
+c_side_binding.h
+c-side.wasm
