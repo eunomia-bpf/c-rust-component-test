@@ -30,7 +30,7 @@ $(C_COMPONENT): $(C_TARGET_FILE)
 	
 
 preinstall:
-    cargo install wasm-tools --git https://github.com/bytecodealliance/wasm-tools --rev c4c9125
+	cargo install wasm-tools --git https://github.com/bytecodealliance/wasm-tools --rev c4c9125
 	cargo install wit-bindgen --git https://github.com/bytecodealliance/wit-bindgen --rev 0fb4018
 
 
